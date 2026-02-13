@@ -1,2 +1,2 @@
-def is_num_in_range(number, min, max):
-    return "True" if int(min)<int(number)<int(max) else "False"
+def is_in_range(number, min, max):
+    return "True" if float(min)<=float(number)<=float(max) else "False"

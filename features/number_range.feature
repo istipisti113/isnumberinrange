@@ -16,4 +16,6 @@ Examples:
 | 0 | 5 | 10 | False |
 | 15 | 0 | 10 | False |
 | 0 | 5 | 5 | False |
-| 5 | 5 | 5 | False |
+| 5 | 5 | 5 | True |
+|2.5|0|5|True|
+|-5|-10|0|True|

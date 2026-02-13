@@ -15,7 +15,7 @@ def step_given_the_minimum_is(context, min):
 
 @when("I check if the number is in range")
 def step_when_I_check_if_the_number_is_in_range(context):
-    context.actual_answer = is_num_in_range(context.number, context.min, context.max)
+    context.actual_answer = is_in_range(context.number, context.min, context.max)
 
 @then('the result shall be "{result}"')
 def step_then_the_result_shall_be(context, result):
